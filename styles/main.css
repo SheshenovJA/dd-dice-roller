@@ -1,0 +1,60 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+#main {
+   position: relative;
+}
+#main:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('http://dnd.wizards.com/sites/default/files/media/styles/news_banner_header/public/images/news/XTRALife_Banner.jpg?itok=l8DMgcVm');
+    width: 100%;
+    height: 100%;
+    filter: blur(1px);
+    opacity : 0.9;
+    z-index: -1;
+}
+.main-container{
+    font-size: 1.3em;
+    color: rgb(0, 135, 199);
+    border: 1px solid #fafafa;
+    border-radius: 5px;
+    display: block;
+    background: #1a1a1a;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 50px 0;
+    box-shadow: 6px 0px 65px -3px rgba(0,0,0,1);
+    opacity: 0.9;
+}
+.dicearea {
+  margin: 30px auto 30px auto;
+  width: 150px;
+  background: #000
+}
+button {
+  padding: 10px;
+  margin-right: 18px;
+  background: rgb(0, 135, 199);
+  border: none;
+  box-shadow: 3px 5px 5px #000;
+}
+button:hover {
+  box-shadow: inset 1px 1px 1px #000;
+  cursor: pointer;
+}
+button:active {
+  background: rgb(199, 63, 0);
+  box-shadow: inset 1px 1px 3px #000;
+}
+p {
+  display: inline;
+  vertical-align: middle;
+  padding-top: 2px;
+}
