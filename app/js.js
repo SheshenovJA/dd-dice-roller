@@ -8,7 +8,7 @@ function roll_20_dice(){
     let alertMsgMsg = "Ти просто ЧАК НОРРІС! d12 Кріііт!";
     var styler = document.createElement("div");
     styler.setAttribute("style",
-    "position:absolute;border: solid 1px Red;width:200px;height:50px;margin: -500px 470px auto; text-align: center;background-color:#444;color:Silver");
+    "position:fixed;border: solid 1px Red;width:200px;height:50px;top: 7%; left: 50%; margin-top: -40px; margin-left: -100px; text-align: center;background-color:#444;color:Silver");
     styler.innerHTML = alertMsgMsg;
     setTimeout(function()
     {
@@ -26,7 +26,7 @@ function roll_12_dice(){
     let alertMsgMsg = "d12 criiit!";
     var styler = document.createElement("div");
     styler.setAttribute("style",
-    "position:absolute;border: solid 1px Red;width:200px;height:50px;margin: -500px 470px auto; text-align: center;background-color:#444;color:Silver");
+    "position:fixed;border: solid 1px Red;width:200px;height:50px;top: 7%; left: 50%; margin-top: -40px; margin-left: -100px; text-align: center;background-color:#444;color:Silver");
     styler.innerHTML = alertMsgMsg;
     setTimeout(function()
     {
@@ -45,7 +45,7 @@ function roll_10_dice(){
     let alertMsgMsg = "Вах, палєхче! Кріталіті!";
     var styler = document.createElement("div");
     styler.setAttribute("style",
-    "position:absolute;border: solid 1px Red;width:200px;height:50px;margin: -500px 470px auto; text-align: center;background-color:#444;color:Silver");
+    "position:fixed;border: solid 1px Red;width:200px;height:50px;top: 7%; left: 50%; margin-top: -40px; margin-left: -100px; text-align: center;background-color:#444;color:Silver");
     styler.innerHTML = alertMsgMsg;
     setTimeout(function()
     {
@@ -63,7 +63,7 @@ function roll_8_dice(){
     let alertMsgMsg = "Вах, палєхче! Кріталіті!";
     var styler = document.createElement("div");
     styler.setAttribute("style",
-    "position:absolute;border: solid 1px Red;width:200px;height:50px;margin: -500px 470px auto; text-align: center;background-color:#444;color:Silver");
+    "position:fixed;border: solid 1px Red;width:200px;height:50px;top: 7%; left: 50%; margin-top: -40px; margin-left: -100px; text-align: center;background-color:#444;color:Silver");
     styler.innerHTML = alertMsgMsg;
     setTimeout(function()
     {
@@ -81,7 +81,7 @@ function roll_6_dice(){
     let alertMsgMsg = "Ушатнув по кріпу. Сільно і дерзко.";
     var styler = document.createElement("div");
     styler.setAttribute("style",
-    "position:absolute;border: solid 1px Red;width:200px;height:50px;margin: -500px 470px auto; text-align: center;background-color:#444;color:Silver");
+    "position:fixed;border: solid 1px Red;width:200px;height:50px;top: 7%; left: 50%; margin-top: -40px; margin-left: -100px; text-align: center;background-color:#444;color:Silver");
     styler.innerHTML = alertMsgMsg;
     setTimeout(function()
     {
@@ -90,6 +90,8 @@ function roll_6_dice(){
       document.body.appendChild(styler);
 }
 }
+
+
 // roll 4
 function roll_4_dice(){
   let result = document.getElementById("d4-result");
@@ -99,7 +101,7 @@ function roll_4_dice(){
     let alertMsgMsg = "Крітанув d4, ну хоч десь пощастило";
     var styler = document.createElement("div");
     styler.setAttribute("style",
-    "position:absolute;border: solid 1px Red;width:200px;height:50px;margin: -500px 470px auto; text-align: center;background-color:#444;color:Silver");
+    "position:fixed;border: solid 1px Red;width:200px;height:50px;top: 7%; left: 50%; margin-top: -40px; margin-left: -100px; text-align: center;background-color:#444;color:Silver");
     styler.innerHTML = alertMsgMsg;
     setTimeout(function()
     {
