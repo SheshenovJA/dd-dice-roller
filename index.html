@@ -5,37 +5,40 @@
     <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1">
     <title>d&amp;d dice roller</title>
     <link rel="stylesheet" type="text/css" href="styles/main.css">
-    <script type="text/javascript" src="app/js.js"></script>
+
   </head>
   <body>
     <div id="main">
       <div class="main-container">
         <!--d20 -->
         <div class="dicearea">
-          <button onclick="roll_20_dice()">Кинути D20</button>
+          <input onclick="roll_20_dice()" id="mySubmit" type="submit" value="Кинути d20"></input>
           <p id="d20-result"></p>
         </div>
+
         <!--d12 -->
         <div class="dicearea">
-          <button onclick="roll_12_dice()">Кинути D12</button>
+          <input onclick="roll_12_dice()" id="mySubmit" type="submit" value="Кинути d12"></input>
           <p id="d12-result"></p>
         </div>
         <!--d8 -->
         <div class="dicearea">
-          <button onclick="roll_8_dice()">Кинути D08</button>
+          <input onclick="roll_8_dice()" id="mySubmit" type="submit" value="Кинути d8"></input>
           <p id="d8-result"></p>
         </div>
         <!--d6 -->
         <div class="dicearea">
-          <button onclick="roll_6_dice()">Кинути D06</button>
+          <input onclick="roll_6_dice()" id="mySubmit" type="submit" value="Кинути d6"></input>
           <p id="d6-result"></p>
         </div>
         <!--d4 -->
         <div class="dicearea">
-          <button onclick="roll_4_dice()">Кинути D04</button>
+          <input onclick="roll_4_dice()" id="mySubmit" type="submit" value="Кинути d4"></input>
           <p id="d4-result"></p>
+
         </div>
       </div>
   </div>
+    <script type="text/javascript" src="app/js.js"></script>
   </body>
 </html>

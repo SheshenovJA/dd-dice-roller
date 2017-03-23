@@ -35,3 +35,20 @@ function roll_4_dice(){
   let d4 = Math.floor(Math.random()*4+1);
   result.innerHTML = d4;
 }
+//
+    let divEvtSelector =  document.getElementById("main").querySelectorAll("#mySubmit");
+    for (var i = 0; i < divEvtSelector.length; i++) {
+    divEvtSelector[i].addEventListener('click',function delay(e){
+
+      this.setAttribute("disabled", "disabled");
+      //dosnt work
+      window.setTimeout(function() {
+        let selector = document.getElementById("main").querySelectorAll("#mySubmit");
+        for (var i = 0; i < selector.length; i++) {
+          //console.log('test1||' + i);
+          selector[i].removeAttribute("disabled");
+          }
+    }, 8000);
+
+  },false);
+      }

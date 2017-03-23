@@ -38,20 +38,26 @@
   width: 150px;
   background: #000
 }
-button {
+input {
   padding: 10px;
   margin-right: 18px;
   background: rgb(0, 135, 199);
   border: none;
   box-shadow: 3px 5px 5px #000;
 }
-button:hover {
+input:hover {
   box-shadow: inset 1px 1px 1px #000;
   cursor: pointer;
 }
-button:active {
+input:active {
   background: rgb(199, 63, 0);
   box-shadow: inset 1px 1px 3px #000;
+}
+input:disabled{
+  border: 1px solid #999999;
+  background: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
 }
 p {
   display: inline;
