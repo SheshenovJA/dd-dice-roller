@@ -19,7 +19,7 @@
     opacity : 0.9;
     z-index: -1;
 }
-.main-container{
+#main-container{
     font-size: 1.3em;
     color: rgb(0, 135, 199);
     border: 1px solid #fafafa;
@@ -37,6 +37,12 @@
   margin: 30px auto 30px auto;
   width: 150px;
   background: #000
+}
+#alerts{
+  display: none;
+  text-align: center;
+  border: 1px dotted #0df;
+  color: #bb2929
 }
 input {
   padding: 10px;
